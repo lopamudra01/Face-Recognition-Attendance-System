@@ -8,7 +8,7 @@ from urllib.request import urlopen
 
 classifier = cv2.CascadeClassifier(r"C:\Users\smrut\OneDrive\Desktop\Lopa Project's\haarcascade_frontalface_default.xml")
 
-model = load_model(r"C:\Users\smrut\OneDrive\Desktop\Lopa Project's\model1.h5")
+model = load_model(r"C:\Users\lopa\OneDrive\Desktop\Lopa Project's\model1.h5")
 ssl._create_default_https_context = ssl._create_unverified_context # Disabling SSL certificate verification
 URL = 'http://192.168.148.154:8080/shot.jpg'
 
